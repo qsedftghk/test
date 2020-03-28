@@ -1,3 +1,5 @@
+// код: https://github.com/SanichKotikov
+
 const START_POSITION = 50;
 
 function isTouch() {
