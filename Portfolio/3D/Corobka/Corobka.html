@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+
+  <script src="v3d.js"></script>
+  <script src="Corobka.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="Corobka.css">
+</head>
+
+<body>
+  <div id="container">
+  </div>
+
+<script type="text/javascript">
+var ua = window.navigator.userAgent.toLowerCase(),
+is_ie = (/trident/gi).test(ua) || (/msie/gi).test(ua);
+if (!is_ie)
+ {
+ document.write('<div class="author">Управление: левая кнопка мышки - крутить,<br>нажатое колёсико - перетаскивать,<br>крутить колёсиком - масштабирование.</div>');
+ }
+</script>
+
+</body>
+
+</html>

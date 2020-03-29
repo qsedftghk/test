@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<style>
+#my_iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.button {
+	position: relative;
+	display: inline-block;
+	font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+
+	width:100px;
+    height: 110px;
+	margin-left: 3px;
+    color: #015fb1;
+
+}
+
+.box
+{
+  display: inline-block; 
+  padding: 0 5px 0 0;
+}
+
+
+.button:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.button:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+img
+{
+ position: relative;
+ padding: 5px 0;
+ width: 100px;
+ height: 79px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+
+<body>
+    <iframe id="my_iframe" src="Corobka.html"></iframe>
+<div class="box">
+    <div id="d1"  class="button" >Вариант 1 <img src="Front1.png"></div>
+    <div id="d2"  class="button" >Вариант 2 <img src="Front2.png"></div>
+</div>
+</body>
+
+</html>
