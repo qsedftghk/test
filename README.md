@@ -1,2 +1,2 @@
-Р’РµС‡РЅР°СЏ beta. 
+всякие поделки
 https://qsedftghk.github.io/test/
