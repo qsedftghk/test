@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Before & After</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root">
+    <img src="images/before_shelezyak.jpg" decoding="async" alt="before">
+    <img src="images/after_shelezyak.jpg" decoding="async" alt="after">
+  </div>
+
+<script type="text/javascript">
+var ua = window.navigator.userAgent.toLowerCase(),
+is_ie = (/trident/gi).test(ua) || (/msie/gi).test(ua);
+if (!is_ie)
+ {
+ document.write('<div class="author">Чтобы посмотреть помещение без текстур,<br>передвигайте центральную линию<br></div>');
+ }
+</script>
+
+
+  <script type="module">
+    import plugin from './plugin.js';
+    plugin(document.getElementById('root'));
+  </script>
+</body>
+</html>
